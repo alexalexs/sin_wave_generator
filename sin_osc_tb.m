@@ -71,7 +71,7 @@ plot(n_f,10.*log10(y_discr_fft_norm))
 hold on
 plot(n_src_f,10.*log10(y_src_fft_norm))
 axis([0 max(n_f)/2 -50 0])
-title('FFT continuous signal and discrete signal')
+title('FFT')
 xlabel('f, [Hz]')
 %% Read file from ModelSim
 file=fopen('output.txt','r');
